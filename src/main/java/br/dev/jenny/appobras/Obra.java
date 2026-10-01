@@ -38,7 +38,8 @@ public class Obra {
 
     @Override
     public String toString() {
-        return String.format("|  %10s | %10s | %15s | %2s |      %02.2f |\n",
+        return String.format("|  %10s | %10s | %15s | %2s |     %02.2f |"
+                + "\n",
                 proprietario,
                 local,
                 cidade,

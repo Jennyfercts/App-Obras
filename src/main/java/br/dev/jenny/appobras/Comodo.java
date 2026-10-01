@@ -30,6 +30,4 @@ public class Comodo {
     public String toString() {
         return String.format("| %10s |    %.2f |        %.2f | %02.2f |", nome, largura, comprimento, this.calcularArea());
     }
-    
-    
 }
